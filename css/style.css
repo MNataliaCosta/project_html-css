@@ -44,6 +44,12 @@ main{
   padding-right: 20px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px groove #021a40;
+}
+
 .skip a{
   position:absolute;
   left:-10000px;
@@ -60,18 +66,18 @@ main{
   height:auto;
 }
 
-.resume h2{
-  padding-top: 20px;
+.current{
+  background-color: #993366;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .projects ul{
   padding-bottom: 20px;
 }
 
-.current{
-  background-color: #993366;
-  font-weight: bold;
-  font-style: italic;
+.resume h2{
+  padding-top: 20px;
 }
 
 .profile{
